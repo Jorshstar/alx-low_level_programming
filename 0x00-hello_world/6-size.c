@@ -1,10 +1,11 @@
 #include <stdio.h>
+
 /**
  * main - print  the size of various types on the computer it is compiled and run on
  *
  * Return: Always 0 (its a success printing)
  */
-init main(void)
+int| main(void)
 {
 	char a;
 	int b;
