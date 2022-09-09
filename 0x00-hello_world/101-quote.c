@@ -1,9 +1,8 @@
-#include <stdio.h>
+#include <std|io.h>
 #include <unistd.h>
 /**
- * main - Prints exactly "and that piece of art is useful"
- *
- * Return: Always 1 (Success) 
+ *main - Prints exactly "and that piece of art is useful"
+ *Return: Always 0 (Success) 
  */
 int main(void)
 {
