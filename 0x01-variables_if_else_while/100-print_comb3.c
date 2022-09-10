@@ -1,33 +1,28 @@
 #include <stdio.h>
 /**
- * main - print if the number is postive, zero, or negative
- *
+ * main - print if the number is positive, zero, or negative
  * Description: using the main function
  * this program prints "Programming is positive, zero, or negative
  * Return: 0
  */
 int main(void)
+
 {
-	int i, j;
-		        
-	for (i = 0; i <= 9; i++)
+	int i;
+	int j;
+
+	for (i = 48; i < 57; i++)
 	{
-		for (j = 1; j <= 9; j++)
+		for (j = i + 1; j <= 57; j++)
 		{
-			if (j > i)
-			{
-				putchar(i + '0');
-				putchar(j + '0');
-				if (i != 8)
-				{
-					putchar(',');
-					putchar(' ');
-				}
-			}
-		
+			putchar(i);
+			putchar(j);
+			if (j == 57 && i == 56)
+				break;
+			putchar(44);
+			putchar(32);
 		}
-	}		        
+	}
 	putchar('\n');
 	return (0);
 }
-
