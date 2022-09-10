@@ -1,34 +1,32 @@
-#iinclude <stdio.h>
+#include <stdio.h>
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- * date:05-06-2022
- */
+ * * main - let's keep coding
+ * * Description: using the main function
+ * * this program prints all possible different combinations of three digits
+ * * Return: 0
+ * */
 int main(void)
 {
-		int i, j, k;
-
-		for (i = 48; i < 58; i++)
+	int i, o, u;
+	for (i = '0'; i <= '9'; i++)
+	{
+		for (o = i + 1; o <= '9'; o++)
 		{
-			for (j = 49; j < 58; j++)
+			for (u = o + 1; u <= '9'; u++)
 			{
-				for (k = 50; k < 58; k++)
+				if ((o != i) && (u != o))
 				{
-					if (k > j && j > i)
-					{
-						putchar(i);
-						putchar(j);
-						putchar(k);
-						if (i != 55 || j != 56)
-						{
-							putchar(',');
-							putchar(' ');
-						}
-					}
+					putchar(i);
+					putchar(o);
+					putchar(u);
+					if (i == '7' && o == '8')
+						continue;
+					putchar(',');
+					putchar(' ');
 				}
 			}
 		}
-		putchar('\n');
-		return (0);
+	}
+	putchar('\n');
+	return (0);
 }
