@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * * main - C is 1 of the hardest, its 4 and am still coding
+ * main - you need to growth mindset in programming
  * description: using the main function, this program prints
- * the sum of the even values of a fibonacci
+ * the sum of the even values of a fibonacci sequence
  * Return: 0
  */
 int main(void)
@@ -18,5 +18,5 @@ int main(void)
 		i = k;
 	}
 	printf("%d\n", total);
-i	return (0);
+	return (0);
 }
