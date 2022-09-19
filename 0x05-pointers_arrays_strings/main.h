@@ -2,8 +2,8 @@
 #define MAIN_H
 
 /**
- * void prototypes(reset_to_98)
- * int prototypes(char)
+ * void prototypes()
+ * int prototypes()
  */
 
 void reset_to_98(int *n);
@@ -18,4 +18,4 @@ void print_array(int *a, int n);
 char *_strcpy(char *dest, char *src);
 int _atoi(char *str);
 
-#endif 	it is /*MAIN_H*/
+#endif /*MAIN_H*/
