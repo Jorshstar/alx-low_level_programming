@@ -3,13 +3,13 @@
 /**
  * swap_int - A function that swaps the value of two integers
  * We dealing with Arrays and Strings now
- * @a: parameter for the first integer
- * @b: parameter for the 2nd integer
+ * @u: parameter for the first integer
+ * @v: parameter for the 2nd integer
  * Return: void
  */
-void swap_int(int *a, int *b)
+void swap_int(int *u, int *v)
 {
-	int swp = *a;
-	*a = *b;
-	*b = swp;
+	int swp = *u;
+	*u = *v;
+	*v = swp;
 }
