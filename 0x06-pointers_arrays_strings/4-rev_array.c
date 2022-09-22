@@ -8,6 +8,7 @@
 void reverse_array(int *a, int n)
 {
 	int i, first, last, keep, counts;
+
 	counts = n / 2;
 	first = 0;
 	last = n - 1;
