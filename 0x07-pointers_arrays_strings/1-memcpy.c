@@ -1,19 +1,19 @@
 #include "main.h"
-
 /**
- * _strchr - The function find first occurence of a char in a string
- * @s: The function for  string to be searched
- * @c: The function for character to be found
- * Return: Pointer to the first occurence
+ * _memcpy - Fills a buffer with a constant for a specified size
+ * @dest: This is the buffer to be filled
+ * @src: This is the char that will be used to fill buffer
+ * @n: This is the no of bytes to fill in the memory array of dest
+ * Return: returns dest
  */
-char *_strchr(char *s, char c)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	int i;
+	unsigned int i;
 
-	for (i = 0; s[i] != '\n'; i++)
+	for (i = 0; i < n; i++)
 	{
-		if (s[i] == c)
-			return (&s[i]);
+		dest[i] = src[i];
 	}
-	return (NULL);
+
+	return (dest);
 }
