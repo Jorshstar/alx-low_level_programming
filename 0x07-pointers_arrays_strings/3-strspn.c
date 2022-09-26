@@ -4,7 +4,7 @@
  * _strspn - Counts the number of bytes of a string contained in another string
  * @s: paramater for String
  * @accept: paramater for String to be searched for
- * Return: 0
+ * Return: number of bytes
  */
 unsigned int _strspn(char *s, char *accept)
 {
@@ -22,5 +22,5 @@ unsigned int _strspn(char *s, char *accept)
 		if (count == 0 || count != supposed_count)
 			break;
 	}
-	return (0);
+	return (count);
 }
