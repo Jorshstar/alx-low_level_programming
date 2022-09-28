@@ -2,8 +2,8 @@
 
 /**
  * wildcmp: A function  that  Compare strings
- * @s1: paramater for string
- * @s2: points to tha string
+ * @s1: pointer to string paramater
+ * @s2: pointer to string paramater
  * Return: 0
  */
 
