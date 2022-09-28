@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * wildcmp: A function m  that  Compare strings
+ * wildcmp: A function  that  Compare strings
  * @s1: paramater for string
  * @s2: points to tha string
  * Return: 0
