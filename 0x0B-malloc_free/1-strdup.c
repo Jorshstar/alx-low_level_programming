@@ -5,9 +5,8 @@
 
 /**
  * _strdup - A function that allocates space in memory
- * 
  * @str: Paramaterfor  string to be copied
- * Return: if successful, a pointer to the duplicated string; Null if
+ * Return:if successful, a pointer to the duplicated string; Null if
  * failed or insufficient memory was allocated
  */
 char *_strdup(char *str)
