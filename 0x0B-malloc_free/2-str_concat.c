@@ -1,8 +1,12 @@
 #include "main.h"
+#include <stdlib.h>
+#include <stdio.h>
+
 /**
+ *str_concat - A function that concatenates two strings
  *_strlen - count arrray
  *@s: array of elements
- *Return: i
+ *Return Null in case of failure
  */
 
 int _strlen(char *s)
@@ -41,7 +45,7 @@ char *str_concat(char *s1, char *s2)
 	size = (_strlen(s1) + _strlen(s2) + 1);
 
 	/*malloc*/
-	dst = (char *) malloc(size * sizeof(char));
+	dst = (char *) malloc (size * sizeof(char));
 
 	if (dst == 0)
 	{
