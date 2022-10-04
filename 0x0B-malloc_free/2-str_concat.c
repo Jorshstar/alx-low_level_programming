@@ -1,20 +1,19 @@
 #include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
-#include <string.h>
+
 /**
- *str_concat - A function that concatenates two strings
- *_strlen - count  arrray
+ *_strlen - count arrray
  *@s: array of elements
  *Return: i
  */
 
-int _strlen(const char *s);
+int _strlen(char *s)
 {
 	unsigned int i;
 
 	i = 0;
-	while (s[i] != '\0')
+	while (s[i] != '\0') /*count character of string*/
 	{
 		i++;
 	}
