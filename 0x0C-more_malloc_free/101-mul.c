@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * _print - A paramater that moves a string one place to the left and prints the string
+ * _print - A paramater that moves a string one place to the left
  * @str: paramater for string to move
  * @l: paramater for size of string
  *
@@ -27,7 +27,7 @@ void _print(char *str, int l)
 }
 
 /**
- * mul - A function that multiplies a char with a string and places the answer into dest
+ * mul - A function that multiplies a char with a string
  * @n:paramater for  char to multiply
  * @num: paramater for string to multiply
  * @num_index: paramater for last non NULL index of num
