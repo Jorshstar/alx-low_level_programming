@@ -5,7 +5,7 @@
  * @name: paramater for name of the dog
  * @age: paramater for age of the dog
  * @owner: paramater for owner of the dog
- * 
+ *
  */
 struct dog
 {
