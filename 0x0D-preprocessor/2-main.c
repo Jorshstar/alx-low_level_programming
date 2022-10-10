@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Program compilation starts from the main
- * Description: A  program that prints the name of the file it was comipiled from
+ * Description: A program that prints the name of the file
  *
  * Return: 0 (success)
  */
