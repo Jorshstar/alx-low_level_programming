@@ -1,22 +1,22 @@
 #include "3-calc.h"
 
 /**
- * * op_add - Add two numbers
- * * @a: The first number
- * * @b: The second number
- * * Return: The sum of a and b
- * */
+ * op_add - Add two numbers
+ * @a: The first number
+ * @b: The second number
+ * Return: The sum of a and b
+ */
 int op_add(int a, int b)
 {
 	return (a + b);
 }
 
 /**
- * * op_sub - Finds the difference of two numbers
- * * @a: The first number, a parameter
- * * @b: The second number, a param
- * * Return: The diff of a and b
- * */
+ * op_sub - Finds the difference of two numbers
+ * @a: The first number, a parameter
+ * @b: The second number, a param
+ * Return: The diff of a and b
+ */
 int op_sub(int a, int b)
 {
 	return (a - b);
